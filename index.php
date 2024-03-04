@@ -14,6 +14,6 @@
  response_type=code&
  state=state_parameter_passthrough_value&
  redirect_uri=https%3A//oauth2.example.com/code&
- client_id=client_id"></a>
+ client_id=client_id">Connexion</a>
 </body>
 </html>
