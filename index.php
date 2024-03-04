@@ -11,6 +11,6 @@ require('config.php')
 </head>
 <body>
     <h1>Google</h1>
-    <a href="https://accounts.google.com/o/oauth2/v2/auth?scope=email&access_type=online&response_type=code&redirect_uri=<?= urlencode('http://172.16.197.253/Oauth-Google/good.php') ?>&client_id=<?= GOOGLE_ID ?>">Connexion</a>
+    <a href="https://accounts.google.com/o/oauth2/v2/auth?scope=email&access_type=online&response_type=code&redirect_uri=<?= urlencode('http://172.16.197.253/Oauth-Google/index.php') ?>&client_id=<?= GOOGLE_ID ?>">Connexion</a>
 </body>
 </html>
