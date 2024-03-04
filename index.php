@@ -1,3 +1,7 @@
+<?php 
+require('config.php')
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,12 +12,10 @@
 <body>
     <h1>Google</h1>
     <a href="https://accounts.google.com/o/oauth2/v2/auth?
- scope=https%3A//www.googleapis.com/auth/drive.metadata.readonly&
- access_type=offline&
- include_granted_scopes=true&
+ scope=email&
+ access_type=online&
  response_type=code&
- state=state_parameter_passthrough_value&
- redirect_uri=https%3A//oauth2.example.com/code&
- client_id=client_id">Connexion</a>
+ redirect_uri=<?= urlencode('http://172.16.197.253/Oauth-Google/good.php') ?>&
+ client_id=<?= GOOGLE_ID ?>">Connexion</a>
 </body>
 </html>
